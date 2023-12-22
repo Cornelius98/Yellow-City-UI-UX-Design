@@ -1,0 +1,1202 @@
+*,body,html 
+{
+    padding: 0;
+    margin:0;
+    outline: 0;   
+}
+.mob-nav-menu
+{
+    display: none;
+}
+.row-cnt 
+{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+}
+.row-sp-evn
+{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-evenly;
+}
+.row-sp-btn
+{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+}
+.sect-pd 
+{
+    padding: 3% 0% 5% 0%;
+}
+.sect-pd-2 
+{
+    padding: 5% 0% 8% 0%;
+}
+.sect-pd-3 
+{
+    padding: 4% 0% 4% 0%;
+}
+.sect-pd-4 
+{
+    padding: 3% 0% 3% 0%;
+}
+.three-margin 
+{
+    border-right: 2px solid rgb(10, 67, 78);
+    border-left: 2px solid rgb(10, 67, 78);
+    border-bottom: 2px solid rgb(10, 67, 78);
+}
+.margin-right-left 
+{
+    border-right: 2px solid rgb(10, 67, 78);
+    border-left: 2px solid rgb(10, 67, 78);
+}
+.margin-top 
+{
+    border-top: 2px solid rgb(10, 67, 78);
+
+}
+/*
+============================
+Nav
+--
+----
+===========================
+*/
+.logo a
+{
+    text-decoration: none;
+
+}
+.logo a strong 
+{
+    color:#eeeeee;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.main-nav 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+.banner .main-nav-bg 
+{
+    background-color: transparent;
+}
+.banner .main-nav-bg hr 
+{
+    background-color: grey;
+}
+.main-nav-bg-2
+{
+    background-color: rgb(218, 179, 8);
+    color: black;
+}
+.nav-menu ul 
+{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: end;
+}
+.nav-menu ul li 
+{
+    list-style: none;
+    margin-right: 3%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.nav-menu ul li a 
+{
+    text-decoration: none;
+    font-size:small;
+    text-transform: uppercase;
+    color: rgb(216, 249, 255);
+    font-family: 'tahoma';
+} 
+.nav-menu ul li .fa-search
+{
+    color: rgb(216, 249, 255);
+    font-weight: bolder;
+}
+.banner-text-wrap 
+{
+    margin-top: 10%;
+}
+.banner-text  
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+.banner-text .banner-text-title 
+{
+    font-weight:bolder;
+    color: rgb(250, 250, 250);
+}
+.banner-text-desc 
+{
+    color: white;
+    margin: 0% 15% 2% 15%;
+    line-height: 16px;
+}
+.why-verb
+{
+    background-color: rgb(60, 41, 112);
+}
+/*
+============================
+News Section
+--
+----
+===========================
+*/
+.news-cover,.news
+{
+    background-color: #ecf011;
+}
+.news {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.news-page 
+{
+    color: black;
+}
+.news-card 
+{
+    width: 30%;
+}
+.nws-text-title 
+{
+    text-align: center;
+}
+.nws-title
+{
+    font-family: arial;
+    font-size:x-large;
+    font-weight: bolder;
+}
+.nws-title-desc 
+{
+    margin: 1% 20% 5% 20%;
+    line-height: 15px;
+}
+.news-card 
+{
+    width: 100%;
+    text-align: center;
+}
+.news-card img 
+{
+    width: 200PX;
+    height: 190px;
+    border-radius: 10px;
+    border: 3px solid #787a00;
+}
+.news-page .news-card i{
+    background-color:rgb(241, 206, 7);
+}
+.news-row-1 
+{
+    margin-bottom: 5%;
+}
+.news-card h3
+{
+    font-size: medium;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+.news-card .news-title-desc  
+{   
+    line-height: 17px;
+}
+.cd-projects
+{
+    text-align: center;
+}
+.cd-projects-desc
+{
+    text-align: center;
+    margin: 0% 12% 5% 12%;
+}
+/*
+============================
+Marketeer Section
+--
+----
+===========================
+*/
+.marketeer-fader 
+{
+    background-color: #000000;
+    opacity: 0.89975;
+    height: 70vh;
+}
+.mkr-title 
+{
+    color: white;
+    margin-top: 10%;
+}
+.mkr-desc 
+{
+    color: white;
+}
+/*
+============================
+Highlight Section
+--
+----
+===========================
+*/ 
+.highlights-cover
+{
+    background-color: rgb(218, 179, 8);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: rgb(238, 238, 238);
+}
+.highlight-card
+{
+   text-align: center;
+   margin: 1%;
+   background-color: rgb(241, 198, 7);
+   width: 25%;
+   padding: 2%;
+   border-radius: 10px;
+   color: rgb(63, 63, 63);
+}
+.highlight-card i 
+{
+    background-color: rgb(212, 176, 15);
+    color: white;
+    padding: 6%;
+    border-radius: 125px;
+}
+.feed-highlights-cover .highlight-card
+{
+    color: rgb(63, 63, 63);
+}
+.highlight-card i 
+{ 
+    color: rgb(71, 71, 71);
+}
+/*
+============================
+Why hire verb section
+--
+----
+===========================
+*/
+.wvb-title 
+{
+    font-weight: bolder;
+    font-family: 'arial';
+    text-align: center;
+    color: rgb(215, 248, 255);
+}
+.wvb-title-desc 
+{
+    text-align: center;
+    line-height: 17px;
+    font-size: medium;
+    margin: 0% 15% 0% 15%;
+    color: rgb(215, 248, 255);
+}
+.wvb-cards
+{
+    margin: 5% 0% 5% 0%;
+}
+.vb-card-reason
+{
+    width: 30%;
+    background-color: rgb(60, 41, 112);
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+.vb-card-reason i 
+{
+    text-align: center;
+    background-color: rgb(215, 248, 255);
+    padding: 2%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.vb-card-reason h5 
+{
+    color: rgb(215, 248, 255);
+}
+.vb-card-reason p 
+{
+    color: rgb(215, 248, 255);
+    line-height: 17px;
+    font-size: medium;
+}
+/*
+============================
+Reasons To Hire Verb Section
+--
+----
+===========================
+*/
+.vtb-slide,.vtb-text 
+{
+    min-width: 50%;
+}
+.vb-text 
+{
+    padding: 3%;
+}
+.vb-text-title .vtb-title 
+{
+    font-weight: bolder;
+    font-family: 'arial';
+    margin-bottom: 10%;
+    line-height: 43px;
+}
+.vtb-slide 
+{
+    background-color: rgb(255, 255, 255);
+}
+.point,.vb-text-title
+{
+   margin: 1% 5% 2% 5%;
+}
+.point-text 
+{
+    margin-left: 5%;
+}
+/*
+============================
+Services Section
+--
+----
+===========================
+*/
+.services 
+{
+    background-color: rgb(24, 24, 23);
+    color: white;
+}
+.vss-text-title
+{
+    text-align:center;
+    color: rgb(219, 218, 218);
+    font-family: arial;
+    margin-bottom: 5%;
+}
+.vss-title 
+{
+    text-align:center;
+    font-weight: bolder;
+    font-family: arial;
+    color: rgb(219, 218, 218);
+}
+.vss-title-desc
+{
+    text-align:center;
+    padding: 0% 15% 0% 15%;
+    line-height: 15px;
+    color: rgb(219, 218, 218);
+}
+.vb-card-service 
+{
+    background-color: rgb(22, 22, 21); 
+    padding: 5%;
+    color: rgb(255, 255, 255);
+    margin: 2px;
+}
+.vb-card-service i 
+{
+    border: 2px solid rgb(241, 198, 7);
+    padding: 3%;
+    border-radius: 125px;
+}
+.vb-points
+{
+    width: 70%;
+}
+
+.vtb-slide 
+{
+    width: 30%;
+    border-radius: 20px;
+}
+.vtb-slide img 
+{
+    height: 5000px;
+    margin-top: 20%;
+    width: 80%;
+    padding: 5%;
+    border-radius: 120px;
+}
+.vb-card-service .fa-file-pdf 
+{
+    color: brown;
+}
+.vb-card-service .fa-file-word 
+{
+    color: rgb(42, 50, 165);
+}
+.vb-card-service .fa-youtube 
+{
+    color: brown;
+}
+.vb-card-service .fa-microphone 
+{
+    color: brown;
+}
+.vb-card-service .fa-image 
+{
+    color: rgb(42, 165, 118);
+}
+.vb-card-service .fa-language 
+{
+    color: rgb(42, 165, 118);
+}
+.vb-card-service .icons 
+{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.vb-card-service .service-name-desc 
+{
+    line-height: 18px;
+    text-align: center;
+}
+.vb-card-service .service-name-desc .service-desc 
+{
+    font-weight: 100;
+    font-size: medium;
+}
+.vb-card-service .service-name-desc .service-price 
+{
+    color:rgb(188, 215, 245);
+    margin-top: 3%;
+    font-size: small;
+}
+.vtb-slide img 
+{
+    height: inherit;
+    width: 100%;
+}
+
+/*
+============================
+Industries Section
+--
+----
+===========================
+*/
+#industries 
+{
+    width: 100%;
+    background-image: url('./assets/white-abstract-background-design_23-2148825582.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.indst-text-title
+{
+    text-align:center;
+    color: rgb(133, 130, 130);
+    font-family: arial;
+    margin-bottom: 5%;
+}
+.indst-title 
+{
+    text-align:center;
+    font-weight: bolder;
+    font-family: arial;
+}
+.indst-title-desc
+{
+    text-align:center;
+    padding: 0% 15% 0% 15%;
+    line-height: 15px;
+}
+#industries ul 
+{
+    list-style: none;
+}
+#industries ul li .fa-plus 
+{
+    color: green;
+}
+#industries ul li span 
+{
+    margin-left: 1%;
+}
+/*
+============================
+Client Section
+--
+----
+===========================
+*/
+.clients 
+{
+    background-attachment: fixed;
+}
+.cl-text-title
+{
+    text-align:center;
+    color: rgb(219, 218, 218);
+    font-family: arial;
+    margin-bottom: 5%;
+}
+.cl-title 
+{
+    text-align:center;
+    font-weight: bolder;
+    font-family: arial;
+}
+.cl-title-desc
+{
+    text-align:center;
+    padding: 0% 15% 0% 15%;
+    line-height: 15px;
+}
+.cl-images 
+{
+    display: inline-block;
+    text-align: center;
+}
+.cl-images img 
+{
+    width: 200;
+    height: 150px;
+}
+/*
+============================
+Review Section
+--
+----
+===========================
+*/
+#review 
+{
+    font-family: arial;
+}
+.rev-card 
+{
+    color: rgb(185, 185, 185);
+    background-color:rgb(18, 18, 78);
+    padding: 4%;
+}
+.rev-overral 
+{
+    background-color:rgb(16, 16, 70);
+}
+.rev-card .rev-title 
+{
+    color: lightgreen;
+    font-weight: bolder;
+}
+/*
+============================
+Section Bridge
+--
+----
+===========================
+*/
+.bridge 
+{
+    background-color: rgb(216, 216, 11);
+}
+.bridge .brg-title 
+{
+    text-transform: uppercase;
+    font-family: 'arial';
+    font-weight: bolder;
+}
+.connect-media .fa-telegram,
+.connect-media .fa-whatsapp,
+.connect-media .fa-envelope,
+.connect-media .fa-phone
+{
+    background-color: rgb(59, 59, 56);
+    padding: 1%;
+    border-radius: 125px;
+}
+/*
+============================
+How Works Section
+--
+----
+===========================
+*/
+.wrks-card-2 i
+{
+    padding: 2%;
+    color: white;
+    border-radius: 125px;
+}
+.wrks-fade 
+{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.87765;
+}
+.wrks-text-title
+{
+    text-align:center;
+    color: rgb(133, 130, 130);
+    font-family: arial;
+    margin-bottom: 5%;
+}
+.wrks-title 
+{
+    text-align:center;
+    font-weight: bolder;
+    font-family: arial;
+}
+.wrks-title-desc
+{
+    text-align:center;
+    padding: 0% 15% 0% 15%;
+    line-height: 15px;
+}
+.wrks-card 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 5%;
+    color: white;
+}
+.wrks-card i 
+{
+    background-color: rgb(10, 80, 128);
+    padding: 90%;
+    border-radius: 125px;
+    color: rgb(245, 245, 245);
+    margin-right: 20%;
+}
+.wrks-card .wrks-content 
+{
+    margin-left: 5%;
+}
+.wrks-content h4 
+{
+    font-size: medium;
+    color: black;
+}
+.wrks-content p 
+{
+    color: rgb(180, 180, 180);
+    line-height: 18px;
+}
+#cdf  
+{
+    background: #d3d3d3;
+}
+/*
+============================
+Locations Section
+--
+----
+===========================
+*/
+#locations 
+{
+    background-color: rgb(17, 15, 5);
+}
+.form-wrap form 
+{
+    background-color: none;
+    padding: 5%;
+}
+.form-wrap form input
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: small;
+    background-color: rgb(17, 15, 5);
+}
+.form-wrap form textarea  
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 15, 5);
+}
+.footer-wraper 
+{
+    text-transform: uppercase;
+    background: url('./lusaka.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-fader 
+{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.87648;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.footer-contact li
+{
+    list-style: none;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.nav-links,.nav-links a
+    ,.social-links,
+        .social-links a
+{
+    color: rgb(253, 253, 253);
+    text-align: left;
+}
+.social-links 
+{
+    text-align:left;
+}
+.social-links a
+{
+    margin:1%;
+}
+.social-links a i
+{
+    color: white;
+    padding: 7%;
+    border-radius: 125px;
+}
+.nav-links 
+{
+    font-family:'calibri';
+    font-size: medium;
+    text-align: center;
+}
+.footer-contact li ,.why-us
+{
+    text-align: left;
+    font-family:'calibri';
+    font-size: smaller;
+    list-style:none;
+}
+.footer-contact li a,
+.why-us li a
+{
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+}
+.footer-contact li a:hover,
+.why-us li a:hover
+{
+    color: green;
+}
+footer 
+{
+    color: rgb(182, 182, 182);
+}
+.omae-brand 
+{
+    width:100%;
+    margin-top:1%;
+    text-align:center;
+    background-color: #000000;
+}
+.nav-menu-slide
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: rgb(218, 179, 8);
+    width: 85%;
+    height: 100vh;
+    padding: 5%;
+}
+.nav-menu-slide ul 
+{
+    margin: 0;
+    padding: 0;
+}
+.nav-menu-slide ul li 
+{
+    text-transform: capitalize;
+}
+.nm-slide-title 
+{
+    color: white;
+}
+.exit-slide-menu 
+{
+    background-color: red;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+.nav-menu-slide ul li 
+{
+    list-style: none;
+}
+.nav-menu-slide ul li a 
+{
+    color: white;
+    text-decoration: none;
+}
+.nav-menu-slide 
+{
+    display: none;
+}
+.sect-current 
+{
+    background-color: #d3d3d3;
+    color: rgb(31, 31, 31);
+}
+.more-wrap 
+{
+    margin: 10% 0% 5% 0%;
+    text-align: center;
+}
+.budget .row .col-xs-12
+{
+    margin-bottom: 2%;
+}
+.budget
+{
+    padding: 4% 10% 5% 10%;
+}
+.bdgt-title 
+{
+    font-size: large;
+}
+.bdgt-desc 
+{
+    line-height: 17px;
+}
+.signature 
+{
+    text-align: center;
+    font-size: small;
+    color: grey;
+    padding: 2%;
+}
+.marketeer-img 
+{
+    width: 100%;
+    height: 500px;
+}
+.verbs-the-best 
+{
+    padding: 5%;
+    background-color: #d3d3d3;
+}
+.point
+{
+    width: 100%;
+    text-align: center;
+    border: 2px solid rgb(241, 198, 7);
+    padding: 5%;
+    border-radius: 10px;
+}
+.point i 
+{
+    background-color: rgb(241, 198, 7);
+    color: white;
+    padding: 5%;
+    border-radius: 125px;
+}
+.local-gov-title 
+{
+    color: rgb(29, 29, 29);
+}
+.local-gov-desc
+{
+    color: rgb(61, 61, 61);
+}
+.nav-menu-slide 
+{
+    background-color: rgb(218, 179, 8);
+}
+.logo a img
+{
+    width: 50px;
+    height: 50px;
+}
+.fa-bars 
+{
+    color:white;
+}
+.about-wrap
+{
+   background-color: rgb(207, 170, 6);
+   padding: 8% 0% 8% 0%;
+}
+.about-banner 
+{
+    background-color: #00000000;
+    z-index: 1000;
+}
+.about-banner img 
+{
+    border-radius: 125px;
+    width: 150px;
+    height: 150px;
+}
+.about-title
+{
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    padding: 5%;
+    font-weight: bolder;
+} 
+.about-desc 
+{
+    color: rgb(36, 36, 36);
+    text-align: right;
+}
+.about-dsc-text 
+{
+    text-align: right;
+    margin-top: 3%;
+    padding-top: 2%;
+}
+.about-dsc-text h4 strong
+{
+    text-align: right;
+    border-top: 2px solid rgb(10, 255, 120);
+}
+.search-form .form-group 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.search-form .form-group input
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 1%;
+    border: none;
+    outline: none;
+}
+.search-form .form-group button 
+{
+    color: white;
+}
+@media screen and (max-width: 800px){
+    .hightlights-wrap 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .marketeer-img 
+    {
+        width: 100%;
+        height: 200px;
+    }
+    .nav-item {
+        display: none;
+    }
+    .mob-nav-menu 
+    {
+        display: block;
+    }
+    .banner-text-desc 
+    {
+        color: white;
+        margin-right: 5%;
+        line-height: 16px;
+    }
+    .banner-text-wrap 
+    {
+        margin-top: 40%;
+    }
+    .news-card  
+    {
+        margin-bottom: 5%;
+    }
+    .wvb-title 
+    {
+        font-size: x-large;
+    }
+    .wvb-cards 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vb-card-reason  
+    {
+        width: 90%;
+        margin: 2%;
+    }
+    .row-cnt 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .vtb-title 
+    {
+        font-size: x-large;
+        line-height: 10px;
+    }
+    .point,.vb-text-title
+    {
+    margin: 1% 1% 2% 1%;
+    }
+    .point-text 
+    {
+        margin-left: 5%;
+    }
+    .vb-points
+    {
+        width: 100%;
+    }
+    .vtb-slide 
+    {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .vtb-slide img 
+    {
+        height: 280px;
+        margin-top: 0%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .vss-title-desc
+    {
+        text-align:center;
+        padding: 0% 3% 0% 3%;
+        line-height: 15px;
+    }
+    .vb-card-service 
+    {
+        text-align: center;
+    }
+    .indst-title-desc
+    {
+        text-align:center;
+        padding: 0% 1% 0% 1%;
+        line-height: 15px;
+    }
+    .indst-types ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .cd-projects-desc
+    {
+        text-align:center;
+        padding: 0% 1% 0% 1%;
+        line-height: 15px;
+    }
+    .brg-title 
+    {
+        font-size: small;
+    }
+    .connect-media 
+    {
+        text-align: center;
+    }
+    .connect-media .fa-telegram,
+    .connect-media .fa-whatsapp,
+    .connect-media .fa-envelope,
+    .connect-media .fa-phone
+    {
+        background-color: rgb(59, 59, 56);
+        padding: 3%;
+        border-radius: 125px;
+    }
+    .wrks-card .wrks-content 
+    {
+        margin-left: 10%;
+    }
+    .nws-title-desc 
+    {
+        margin: 1% 1% 5% 1%;
+        line-height: 15px;
+    }
+    .mkr-desc 
+    {
+        font-size: medium;
+    }
+    #banner .banner-fader 
+    {
+        height: 100vh;
+        background-color: #06161d;
+        opacity: 0.78653;
+        padding-bottom: 10%;
+    }
+    .banner-buttons a 
+    {
+        margin: 1%;
+    }
+    .highlight-card
+    {
+        text-align: center;
+        margin: 1%;
+        background-color: rgb(241, 206, 7);
+        width: 100%;
+        padding: 2%;
+    }
+    .about-wrap
+    {
+    background-color: rgb(207, 170, 6);
+    padding: 8% 0% 8% 0%;
+    }
+    .about-banner 
+    {
+        background-color: #00000000;
+        z-index: 1000;
+        text-align: center;
+    }
+    .about-banner img 
+    {
+        border-radius: 125px;
+        width: 150px;
+        height: 150px;
+    }
+    .about-title
+    {
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        padding: 5%;
+        font-weight: bolder;
+    } 
+    .about-desc 
+    {
+        color: rgb(36, 36, 36);
+        text-align: center;
+    }
+    .about-dsc-text 
+    {
+        text-align: center;
+        margin-top: 3%;
+        padding-top: 2%;
+    }
+    .about-dsc-text h4 strong
+    {
+        text-align: center;
+        border-top: 2px solid rgb(10, 255, 120);
+    }
+    .cdf-btns a 
+    {
+        margin: 2px;
+    }
+    .footer-wraper,
+    .footer-wraper ul li,
+    .footer-wraper h6
+    {
+        text-align: center;
+    }
+    .footer-wraper ul li
+    {
+        text-align: center;
+    }
+}
